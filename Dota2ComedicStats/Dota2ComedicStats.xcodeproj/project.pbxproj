@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2EEAE81F6756C4007EBCA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EEAE71F6756C4007EBCA7 /* AppDelegate.swift */; };
+		FC2EEAEA1F6756C4007EBCA7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EEAE91F6756C4007EBCA7 /* FirstViewController.swift */; };
+		FC2EEAEC1F6756C4007EBCA7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EEAEB1F6756C4007EBCA7 /* SecondViewController.swift */; };
+		FC2EEAEF1F6756C4007EBCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2EEAED1F6756C4007EBCA7 /* Main.storyboard */; };
+		FC2EEAF11F6756C4007EBCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2EEAF01F6756C4007EBCA7 /* Assets.xcassets */; };
+		FC2EEAF41F6756C4007EBCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2EEAF21F6756C4007EBCA7 /* LaunchScreen.storyboard */; };
+		FC2EEAFF1F6756C5007EBCA7 /* Dota2ComedicStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EEAFE1F6756C5007EBCA7 /* Dota2ComedicStatsTests.swift */; };
+		FC2EEB0A1F6756C5007EBCA7 /* Dota2ComedicStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EEB091F6756C5007EBCA7 /* Dota2ComedicStatsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2EEAFB1F6756C5007EBCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EEADC1F6756C4007EBCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2EEAE31F6756C4007EBCA7;
+			remoteInfo = Dota2ComedicStats;
+		};
+		FC2EEB061F6756C5007EBCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2EEADC1F6756C4007EBCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2EEAE31F6756C4007EBCA7;
+			remoteInfo = Dota2ComedicStats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2EEAE41F6756C4007EBCA7 /* Dota2ComedicStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota2ComedicStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2EEAE71F6756C4007EBCA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2EEAE91F6756C4007EBCA7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FC2EEAEB1F6756C4007EBCA7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FC2EEAEE1F6756C4007EBCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2EEAF01F6756C4007EBCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2EEAF31F6756C4007EBCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2EEAF51F6756C4007EBCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2EEAFA1F6756C5007EBCA7 /* Dota2ComedicStatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dota2ComedicStatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2EEAFE1F6756C5007EBCA7 /* Dota2ComedicStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2ComedicStatsTests.swift; sourceTree = "<group>"; };
+		FC2EEB001F6756C5007EBCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2EEB051F6756C5007EBCA7 /* Dota2ComedicStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dota2ComedicStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2EEB091F6756C5007EBCA7 /* Dota2ComedicStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2ComedicStatsUITests.swift; sourceTree = "<group>"; };
+		FC2EEB0B1F6756C5007EBCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2EEAE11F6756C4007EBCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EEAF71F6756C5007EBCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EEB021F6756C5007EBCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2EEADB1F6756C4007EBCA7 = {
+			isa = PBXGroup;
+			children = (
+				FC2EEAE61F6756C4007EBCA7 /* Dota2ComedicStats */,
+				FC2EEAFD1F6756C5007EBCA7 /* Dota2ComedicStatsTests */,
+				FC2EEB081F6756C5007EBCA7 /* Dota2ComedicStatsUITests */,
+				FC2EEAE51F6756C4007EBCA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2EEAE51F6756C4007EBCA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EEAE41F6756C4007EBCA7 /* Dota2ComedicStats.app */,
+				FC2EEAFA1F6756C5007EBCA7 /* Dota2ComedicStatsTests.xctest */,
+				FC2EEB051F6756C5007EBCA7 /* Dota2ComedicStatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2EEAE61F6756C4007EBCA7 /* Dota2ComedicStats */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EEAE71F6756C4007EBCA7 /* AppDelegate.swift */,
+				FC2EEAE91F6756C4007EBCA7 /* FirstViewController.swift */,
+				FC2EEAEB1F6756C4007EBCA7 /* SecondViewController.swift */,
+				FC2EEAED1F6756C4007EBCA7 /* Main.storyboard */,
+				FC2EEAF01F6756C4007EBCA7 /* Assets.xcassets */,
+				FC2EEAF21F6756C4007EBCA7 /* LaunchScreen.storyboard */,
+				FC2EEAF51F6756C4007EBCA7 /* Info.plist */,
+			);
+			path = Dota2ComedicStats;
+			sourceTree = "<group>";
+		};
+		FC2EEAFD1F6756C5007EBCA7 /* Dota2ComedicStatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EEAFE1F6756C5007EBCA7 /* Dota2ComedicStatsTests.swift */,
+				FC2EEB001F6756C5007EBCA7 /* Info.plist */,
+			);
+			path = Dota2ComedicStatsTests;
+			sourceTree = "<group>";
+		};
+		FC2EEB081F6756C5007EBCA7 /* Dota2ComedicStatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EEB091F6756C5007EBCA7 /* Dota2ComedicStatsUITests.swift */,
+				FC2EEB0B1F6756C5007EBCA7 /* Info.plist */,
+			);
+			path = Dota2ComedicStatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2EEAE31F6756C4007EBCA7 /* Dota2ComedicStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2EEB0E1F6756C5007EBCA7 /* Build configuration list for PBXNativeTarget "Dota2ComedicStats" */;
+			buildPhases = (
+				FC2EEAE01F6756C4007EBCA7 /* Sources */,
+				FC2EEAE11F6756C4007EBCA7 /* Frameworks */,
+				FC2EEAE21F6756C4007EBCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dota2ComedicStats;
+			productName = Dota2ComedicStats;
+			productReference = FC2EEAE41F6756C4007EBCA7 /* Dota2ComedicStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2EEAF91F6756C5007EBCA7 /* Dota2ComedicStatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2EEB111F6756C5007EBCA7 /* Build configuration list for PBXNativeTarget "Dota2ComedicStatsTests" */;
+			buildPhases = (
+				FC2EEAF61F6756C5007EBCA7 /* Sources */,
+				FC2EEAF71F6756C5007EBCA7 /* Frameworks */,
+				FC2EEAF81F6756C5007EBCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2EEAFC1F6756C5007EBCA7 /* PBXTargetDependency */,
+			);
+			name = Dota2ComedicStatsTests;
+			productName = Dota2ComedicStatsTests;
+			productReference = FC2EEAFA1F6756C5007EBCA7 /* Dota2ComedicStatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2EEB041F6756C5007EBCA7 /* Dota2ComedicStatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2EEB141F6756C5007EBCA7 /* Build configuration list for PBXNativeTarget "Dota2ComedicStatsUITests" */;
+			buildPhases = (
+				FC2EEB011F6756C5007EBCA7 /* Sources */,
+				FC2EEB021F6756C5007EBCA7 /* Frameworks */,
+				FC2EEB031F6756C5007EBCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2EEB071F6756C5007EBCA7 /* PBXTargetDependency */,
+			);
+			name = Dota2ComedicStatsUITests;
+			productName = Dota2ComedicStatsUITests;
+			productReference = FC2EEB051F6756C5007EBCA7 /* Dota2ComedicStatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2EEADC1F6756C4007EBCA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = RyStudios;
+				TargetAttributes = {
+					FC2EEAE31F6756C4007EBCA7 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					FC2EEAF91F6756C5007EBCA7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = FC2EEAE31F6756C4007EBCA7;
+					};
+					FC2EEB041F6756C5007EBCA7 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = FC2EEAE31F6756C4007EBCA7;
+					};
+				};
+			};
+			buildConfigurationList = FC2EEADF1F6756C4007EBCA7 /* Build configuration list for PBXProject "Dota2ComedicStats" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2EEADB1F6756C4007EBCA7;
+			productRefGroup = FC2EEAE51F6756C4007EBCA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2EEAE31F6756C4007EBCA7 /* Dota2ComedicStats */,
+				FC2EEAF91F6756C5007EBCA7 /* Dota2ComedicStatsTests */,
+				FC2EEB041F6756C5007EBCA7 /* Dota2ComedicStatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2EEAE21F6756C4007EBCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EEAF41F6756C4007EBCA7 /* LaunchScreen.storyboard in Resources */,
+				FC2EEAF11F6756C4007EBCA7 /* Assets.xcassets in Resources */,
+				FC2EEAEF1F6756C4007EBCA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EEAF81F6756C5007EBCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EEB031F6756C5007EBCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2EEAE01F6756C4007EBCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EEAEC1F6756C4007EBCA7 /* SecondViewController.swift in Sources */,
+				FC2EEAE81F6756C4007EBCA7 /* AppDelegate.swift in Sources */,
+				FC2EEAEA1F6756C4007EBCA7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EEAF61F6756C5007EBCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EEAFF1F6756C5007EBCA7 /* Dota2ComedicStatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2EEB011F6756C5007EBCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EEB0A1F6756C5007EBCA7 /* Dota2ComedicStatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2EEAFC1F6756C5007EBCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2EEAE31F6756C4007EBCA7 /* Dota2ComedicStats */;
+			targetProxy = FC2EEAFB1F6756C5007EBCA7 /* PBXContainerItemProxy */;
+		};
+		FC2EEB071F6756C5007EBCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2EEAE31F6756C4007EBCA7 /* Dota2ComedicStats */;
+			targetProxy = FC2EEB061F6756C5007EBCA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2EEAED1F6756C4007EBCA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2EEAEE1F6756C4007EBCA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2EEAF21F6756C4007EBCA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2EEAF31F6756C4007EBCA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2EEB0C1F6756C5007EBCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2EEB0D1F6756C5007EBCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2EEB0F1F6756C5007EBCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63F4777255;
+				INFOPLIST_FILE = Dota2ComedicStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rykuno.Dota2ComedicStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC2EEB101F6756C5007EBCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63F4777255;
+				INFOPLIST_FILE = Dota2ComedicStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rykuno.Dota2ComedicStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC2EEB121F6756C5007EBCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63F4777255;
+				INFOPLIST_FILE = Dota2ComedicStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rykuno.Dota2ComedicStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota2ComedicStats.app/Dota2ComedicStats";
+			};
+			name = Debug;
+		};
+		FC2EEB131F6756C5007EBCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63F4777255;
+				INFOPLIST_FILE = Dota2ComedicStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rykuno.Dota2ComedicStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota2ComedicStats.app/Dota2ComedicStats";
+			};
+			name = Release;
+		};
+		FC2EEB151F6756C5007EBCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63F4777255;
+				INFOPLIST_FILE = Dota2ComedicStatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rykuno.Dota2ComedicStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dota2ComedicStats;
+			};
+			name = Debug;
+		};
+		FC2EEB161F6756C5007EBCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63F4777255;
+				INFOPLIST_FILE = Dota2ComedicStatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rykuno.Dota2ComedicStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dota2ComedicStats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2EEADF1F6756C4007EBCA7 /* Build configuration list for PBXProject "Dota2ComedicStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2EEB0C1F6756C5007EBCA7 /* Debug */,
+				FC2EEB0D1F6756C5007EBCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2EEB0E1F6756C5007EBCA7 /* Build configuration list for PBXNativeTarget "Dota2ComedicStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2EEB0F1F6756C5007EBCA7 /* Debug */,
+				FC2EEB101F6756C5007EBCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2EEB111F6756C5007EBCA7 /* Build configuration list for PBXNativeTarget "Dota2ComedicStatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2EEB121F6756C5007EBCA7 /* Debug */,
+				FC2EEB131F6756C5007EBCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2EEB141F6756C5007EBCA7 /* Build configuration list for PBXNativeTarget "Dota2ComedicStatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2EEB151F6756C5007EBCA7 /* Debug */,
+				FC2EEB161F6756C5007EBCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2EEADC1F6756C4007EBCA7 /* Project object */;
+}
