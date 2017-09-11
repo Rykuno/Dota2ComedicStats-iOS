@@ -1,6 +1,6 @@
 # Dota 2 Comedic Stats Parser
 
-A DotA2 Website/App that provides the user with comedic statistics regaurding his/her personal 
+A DotA2 App that provides the user with comedic statistics regaurding his/her personal 
 statistics compared to that of DotA2 Pro Players. 
 
 ## Basic Usage
